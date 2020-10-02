@@ -19,12 +19,18 @@
     margin-top: 24px;
     margin-left: 10px;
     background-color: teal;
+    
 }
-.btn{
-    margin: 0px;
-    margin-left: 63px;
+.rounded-circle {
+    border-radius: 50%!important;
+    margin: 29px 50px !important;
+    
 }
 
+.img-fluid, .img-thumbnail {
+    max-width: 60% !important;
+    height: auto;
+}
 .about{
     width:250px;
     height:700px;
@@ -140,7 +146,7 @@ button:focus {
     margin:10px 100px;
 }
 .about-detail{
-    padding:30px 10px ;
+    padding:30px 35px ;
     border-bottom: 1px solid teal;
 }
 
