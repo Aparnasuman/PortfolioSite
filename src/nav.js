@@ -8,7 +8,7 @@ class NavBar extends React.Component {
     <nav className="sidebar">
      
         <img src={logo} alt="Download" className="download"></img><br></br>
-        <button className="btn btn-info justify-content-center ">Home</button>
+        <button className="btn btn-info justify-content-center "><Link to="/">Home</Link></button>
         
         <ul className="list">
           <Link to="/about"><li className="listabout">ABOUT</li></Link>

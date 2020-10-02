@@ -28,7 +28,7 @@ class AboutMain extends React.Component {
             </h1>
             <div className="subheading mb-5">
               RIVER VALLY COLONY SITAMARHI BIHAR ,+(91)9304514771 ,
-                    <a href="https://www.linkedin.com/in/aparnasuman/">AparnaSuman2@gmail.com</a>
+                    AparnaSuman2@gmail.com
             </div>
             <p className="lead mb-5">I am a Front End developer with industry experience building websites and web applications. I specialize in JavaScript and have professional experience working with ReactJS and Angular. I also have experience working with PHP, HTML, CSS and Javascript. Take a look at my work or get in touch!</p>
             <div className="social-icons ">

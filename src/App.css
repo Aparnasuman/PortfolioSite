@@ -3,13 +3,18 @@
     padding: 0px;
     box-sizing: border-box;
 }
-#collapseExample{
-    background-color: teal;
-}
+
 .sidebar{
-   
-    height: 1000px;
-    position: fixed;
+    width: 20%;
+    height: 700px;
+    margin-left: -20px;
+    background-color: teal;
+   position: fixed;
+ 
+}
+.col-sm-10{ 
+    height: auto;
+    border-bottom:1px solid teal;
 }
 .togl{
     margin-top: 24px;
@@ -130,11 +135,7 @@ button:focus {
 .icon-detail{
     margin-top: 20px;
 }
-.education{
-    height: 675px !important;
-    border-bottom: 1px solid #009688 ;
-    
-}
+
 .icon-disp{
     margin-left: 10px;
     padding: 18px;
@@ -145,6 +146,10 @@ button:focus {
     color: #009688;
     font-weight: 700;
     margin:10px 100px;
+}
+.about-detail{
+    padding:30px 10px ;
+    border-bottom: 1px solid teal;
 }
 
 .cgpa{
@@ -230,18 +235,13 @@ h2{
 }
 a:-webkit-any-link {
     color: teal;
+    color: #ffff;
     text-decoration: none;
     background-color: transparent;
     cursor: pointer;
     text-decoration: none !important;
 }
-.about-detail{
-    height: 525px;
-    border-bottom:1px solid #009688 ;
-}
-.about-Main{
-    width:100%;
-}
+
 
 .list{
     text-align: center;
