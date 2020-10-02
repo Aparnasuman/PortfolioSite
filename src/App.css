@@ -3,9 +3,9 @@
     padding: 0px;
     box-sizing: border-box;
 }
-.container-fluid{
-    padding-left: 0px !important;
-    padding-right: 0px !important;
+.sidebar{
+    background-color: teal;
+    height: 700px;
 }
 .about{
     width:250px;

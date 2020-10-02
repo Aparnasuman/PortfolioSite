@@ -4,8 +4,9 @@ import { Link } from 'react-router-dom';
 class NavBar extends React.Component {
   render(){
 return (
-      <div className="container about">
-       <nav className="navbar">
+     <div class="row">
+      
+         <nav className="sidebar col-md-2 col-sm-3">
          <img src={logo} alt="Download" className="download"/>
          <ul className="list">
          <Link to="/about"><li className="listabout">ABOUT</li></Link>
@@ -16,7 +17,9 @@ return (
          <Link to="/intrest"> <li className="listabout">INTREST</li></Link> 
          </ul>
          </nav>
+         <div class="content col-md-10 col-sm-9">
          
+         </div>
       </div>
     )
 };
