@@ -13,11 +13,11 @@ class App extends React.Component {
         return (
             <div className="row">
                 <Router>
-                    <div id="collapseExample" className="col-sm-3" >
+                    <div id="collapseExample" className="col-sm-2" >
                         <NavBar />
                     </div>
-                    <div className="col-sm-9">
-                      <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                    <div className="col-sm-10">
+                      <button class="btn btn-primary togl" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
                       <i class="fas fa-minus-square"></i>
                      </button>
 

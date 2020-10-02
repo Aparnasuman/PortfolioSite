@@ -7,6 +7,7 @@ class AboutMain extends React.Component {
   constructor(props) {
     super(props);
   }
+
   componentDidMount() {
     let i = 0;
     this.props.fetchStars("Freshup")
@@ -15,6 +16,7 @@ class AboutMain extends React.Component {
     // }, 1000)
   }
   render() {
+    let url = "";
     return (
 
       <div className="about-detail">
@@ -26,18 +28,22 @@ class AboutMain extends React.Component {
             </h1>
             <div className="subheading mb-5">
               RIVER VALLY COLONY SITAMARHI BIHAR ,+(91)9304514771 ,
-                    <Link to="/Aparnasuman2@gmail.com">AparnaSuman2@gmail.com</Link>
+                    <a href="https://www.linkedin.com/in/aparnasuman/">AparnaSuman2@gmail.com</a>
             </div>
             <p className="lead mb-5">I am a Front End developer with industry experience building websites and web applications. I specialize in JavaScript and have professional experience working with ReactJS and Angular. I also have experience working with PHP, HTML, CSS and Javascript. Take a look at my work or get in touch!</p>
             <div className="social-icons ">
               <span className="icon-display linkedin">
-                <i className="fab fa-linkedin-in"></i></span>
+                <a href="https://www.linkedin.com/in/aparnasuman/">
+                  <i className="fab fa-linkedin-in"></i></a></span>
               <span className="icon-display github">
-                <i className="fab fa-github"></i></span>
+                <a href="https://github.com/Aparnasuman">
+                  <i className="fab fa-github"></i></a></span>
               <span className="icon-display env">
-                <i className="far fa-envelope"></i></span>
+                <a href="https://mail.google.com/mail/u/0/#inbox">
+                  <i className="far fa-envelope"></i></a></span>
               <span className="icon-display fb">
-                <i className="fab fa-facebook-f"></i></span>
+                <a href="https://www.facebook.com/aparna.suman.1/">
+                  <i className="fab fa-facebook-f"></i></a></span>
             </div>
           </div>
         </section>
