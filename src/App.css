@@ -8,8 +8,13 @@
     height: 700px;
     position: fixed;
 }
+
 .btn{
-    margin-left: 65px;
+    margin: 0px;
+    margin-left: 63px;
+}
+.sidebar{
+    margin-left: -15px;
 }
 .about{
     width:250px;
@@ -26,10 +31,7 @@ h1{
     color: teal !important;
 }
 section.resume-section {
-    padding-left: 5rem;
-    padding-right: 5rem;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+   width: 100%;
 }
 .icon-display:hover{
     background-color: #205550;
@@ -229,7 +231,6 @@ a:-webkit-any-link {
     text-decoration: none !important;
 }
 .about-detail{
-    margin-left: 225px;
     height: 525px;
     border-bottom:1px solid #009688 ;
 }

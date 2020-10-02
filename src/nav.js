@@ -5,10 +5,12 @@ import AboutDetail from './about';
 class NavBar extends React.Component {
   render(){
 return (
-     <div class="row">
+    
       
-         <nav className="sidebar col-md-2 col-sm-3">
+         <nav className="sidebar" id="collapseExample">
+        
          <img src={logo} alt="Download" className="download"/>
+          
          <button className="btn btn-info justify-content-center ">Home</button>
          <ul className="list">
          <Link to="/about"><li className="listabout">ABOUT</li></Link>
@@ -19,10 +21,6 @@ return (
          <Link to="/intrest"> <li className="listabout">INTREST</li></Link> 
          </ul>
          </nav>
-         <div class="content col-md-10 col-sm-9">
-          <AboutDetail />
-         </div>
-      </div>
     )
 };
 };

@@ -14,15 +14,14 @@ class AboutDetail extends React.Component{
   render(){
     console.log(this.props);
 return (
-      <div className="container-fluid ">
+      <div className="container">
          <AboutMain/>
          <ExperienceMain />
          <EducationMain/>
          < SkillMain/>
          <ProjectDetail />
          <IntrestDetail/>
-
-      </div>
+     </div>
     );
   }
 };
