@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from "react-redux";
 import createStore from "./Store/store";
+import 'bootstrap/dist/css/bootstrap.css';
 import App from './App';
 class Test extends React.Component {
   render() {
