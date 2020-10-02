@@ -7,7 +7,7 @@ class NavBar extends React.Component {
     return (
     <nav className="sidebar">
      
-        <img src={logo} alt="Download" className="download"></img><br></br>
+        <img src={logo} alt="Download" className="img-fluid img-thumbnail download"></img><br></br>
         <button className="btn btn-info justify-content-center "><Link to="/">Home</Link></button>
         
         <ul className="list">

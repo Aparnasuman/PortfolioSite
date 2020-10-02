@@ -5,12 +5,11 @@
 }
 
 .sidebar{
-    width: 20%;
+    width: 19%;
     height: 700px;
-    margin-left: -20px;
+    margin-left: -16px;
     background-color: teal;
-   position: fixed;
- 
+    position: fixed;
 }
 .col-sm-10{ 
     height: auto;
@@ -51,13 +50,6 @@ section.resume-section {
 }
 .icon-display:active{
     background-color: #205550;
-}
-.download{
-    height: 166px !important;
-    width: 166px !important;
-    margin: 28px 10px;
-    border-radius: 100px;
-    border: 6px solid #ccb6b6;
 }
 .icon{
     margin-left: 80px;
