@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.png';
 import { Link } from 'react-router-dom';
+import AboutDetail from './about';
 class NavBar extends React.Component {
   render(){
 return (
@@ -8,6 +9,7 @@ return (
       
          <nav className="sidebar col-md-2 col-sm-3">
          <img src={logo} alt="Download" className="download"/>
+         <button className="btn btn-info justify-content-center ">Home</button>
          <ul className="list">
          <Link to="/about"><li className="listabout">ABOUT</li></Link>
          <Link to="/experience"><li className="listabout">EXPERIENCE</li></Link>
@@ -18,7 +20,7 @@ return (
          </ul>
          </nav>
          <div class="content col-md-10 col-sm-9">
-         
+          <AboutDetail />
          </div>
       </div>
     )

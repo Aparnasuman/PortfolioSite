@@ -16,7 +16,17 @@ class App extends React.Component {
       <NavBar/>
 
     
-        
+        <Switch>
+            <Route path="/about" component={AboutMain} />
+            <Route path="/experience" component={ExperienceMain} />
+            <Route path="/education" component={EducationMain} />
+            <Route path="/skills" component={SkillMain} />
+            <Route path='/Intrest' component={IntrestDetail }/>
+            <Route path="/project" component={ProjectDetail}/>
+            <Route path="/" component={AboutDetail} />
+         
+          
+        </Switch>
  </Router>
         
     );

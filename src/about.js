@@ -15,7 +15,6 @@ class AboutDetail extends React.Component{
     console.log(this.props);
 return (
       <div className="container-fluid ">
-        <NavBar/>
          <AboutMain/>
          <ExperienceMain />
          <EducationMain/>

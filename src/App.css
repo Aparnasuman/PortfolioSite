@@ -6,6 +6,10 @@
 .sidebar{
     background-color: teal;
     height: 700px;
+    position: fixed;
+}
+.btn{
+    margin-left: 65px;
 }
 .about{
     width:250px;
@@ -232,9 +236,9 @@ a:-webkit-any-link {
 .about-Main{
     width:100%;
 }
+
 .list{
     text-align: center;
-    margin-left: 30px;
 }
 li{
     font-size: 20px;
