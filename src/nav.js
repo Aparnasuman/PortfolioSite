@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 class NavBar extends React.Component {
   render() {
     return (
-    <nav className="sidebar" >
+    <nav className={this.props.collapse?`sidebar `:"sidebr-nav"} id="sidbar">
      
      <Link to="/">  <img src={logo} alt="Download" className="img-fluid img-thumbnail rounded-circle m-3"></img></Link>
         <ul className="list">

@@ -16,11 +16,10 @@
 .col-sm-10{ 
     height: auto;
 }
-.togl{
+.togl {
     margin-top: 24px;
-    margin-left: 10px;
+    margin-left: 52px;
     background-color: teal;
-    
 }
 .rounded-circle {
     border-radius: 50%!important;
@@ -268,7 +267,13 @@ button:focus {
     margin-top: 20px;
 }
 
-
+.sidebr-nav{
+    width: 4%;
+    margin-left: -15px;
+    height: 700px;
+    position: fixed;
+    background-color: teal;
+}
 .major{
     color: #009688;
     font-weight: 700;
@@ -276,7 +281,7 @@ button:focus {
 }
 .about-detail{
     padding:30px 35px ;
-
+    margin-left: 20px;
 }
 
 .cgpa{

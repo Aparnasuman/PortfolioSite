@@ -9,28 +9,30 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import NavBar from './nav';
 import AboutDetail from './about';
 class App extends React.Component {
-    constructor() {
-        super();
+    constructor(props) {
+        super(props);
         this.state = {
-          sidebarOpen: false
+        collapse: false
         }
-        this.handleViewSidebar = this.handleViewSidebar.bind(this);
-      
-      }
-      handleViewSidebar() {
-        this.setState({ sidebarOpen: !this.state.sidebarOpen });
-    }
+     }
+     collapsed=()=>{
+         console.log("tssss")
+        this.setState(coll=>{ 
+            console.log(coll)
+           return {collapse: !coll.collapse}
+          })
+     }
+
     render() {
-        const {sidebarOpen} = this.state;
         return (
             <div className="row">
                 <Router>
-                    <div  className="col-sm-2"  >
-                    {sidebarOpen && <NavBar/>}
+                    <div id="collapseExample" className="col-sm-2" >
+                        <NavBar collapse={this.state.collapse} />
                     </div>
-                    <div className="col-sm-10" >
-                      <button onClick={ this.handleViewSidebar } class="btn btn-primary togl" type="button" >
-                      <i class="fas fa-minus-square"></i>
+                    <div className="col-sm-10">
+                      <button class="btn btn-info togl" onClick={this.collapsed} type="button" >
+                      <i class="fas fa-bars"></i>
                      </button>
 
                         <Switch>
