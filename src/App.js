@@ -30,7 +30,7 @@ class App extends React.Component {
                     <div id="collapseExample" className="col-sm-2" >
                         <NavBar collapse={this.state.collapse} />
                     </div>
-                    <div className="col-sm-10">
+                    <div className={this.state.collapse?`col-sm-10 `:"col-sm-12"}  >
                       <button class="btn btn-info togl" onClick={this.collapsed} type="button" >
                       <i class="fas fa-bars"></i>
                      </button>

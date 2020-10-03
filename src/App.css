@@ -18,7 +18,7 @@
 }
 .togl {
     margin-top: 24px;
-    margin-left: 52px;
+    margin-left: 82px;
     background-color: teal;
 }
 .rounded-circle {
@@ -263,12 +263,27 @@ button:focus {
   .icon-disp:hover + .icon-nm-6 {
     display: inline-block;
   }
+  .icn{
+      display: block;
+      margin-bottom: 27px;
+      font-size: 30px;
+  }
+  .lis{
+    display: none;
+  }
+  .di-1{
+      display: none;
+  }
 .icon-detail{
     margin-top: 20px;
 }
+.img-fluid-1{
+    margin: 41px 13px !important;
+    height: auto;
+}
 
 .sidebr-nav{
-    width: 4%;
+    width: 5%;
     margin-left: -15px;
     height: 700px;
     position: fixed;
