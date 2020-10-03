@@ -409,3 +409,124 @@ li{
  
 }
 
+/*mdia qury scrn"*/
+@media only screen  and (max-width: 660px){
+    .mb-0{
+        font-size: 30px;
+    }
+    .subheading .mb-5{
+        font-size: 15px;
+    }
+    .lead .mb-5{
+        font-size: 13px;
+    }
+    .sidebr-nav{
+        width:13%;
+    }
+    .about-detail {
+        padding: 30px 36px;
+        margin-left: 21px;
+    }
+    .listabout{
+
+            font-size: 11px;
+        
+    }
+    .sidebar{
+        width: 15%;
+    }
+    .mb-g{
+        font-size: 15px;
+    }
+    .rounded-circle{
+        margin: 29px 15px !important;
+    }
+    .icon-display {
+        font-size: 16px;
+        background-color: #7e8685;
+        color: white;
+        margin-left: 10px;
+        padding: 18px;
+        border-radius: 50px;
+    }
+  }
+  @media only screen  and (max-width: 768px){
+    .mb-0{
+        font-size: 30px;
+    }
+    .subheading .mb-5{
+        font-size: 15px;
+    }
+    .lead .mb-5{
+        font-size: 13px;
+    }
+    .sidebr-nav{
+        width:13%;
+    }
+    .about-detail {
+        padding: 30px 36px;
+        margin-left: 21px;
+    }
+    .listabout{
+
+            font-size: 11px;
+        
+    }
+    .sidebar{
+        width: 15%;
+    }
+    .mb-g{
+        font-size: 15px;
+    }
+    .rounded-circle{
+        margin: 29px 15px !important;
+    }
+    .icon-display {
+        font-size: 16px;
+        background-color: #7e8685;
+        color: white;
+        margin-left: 10px;
+        padding: 18px;
+        border-radius: 50px;
+    }
+  }
+  @media only screen  and (max-width: 865px){
+    .mb-0{
+        font-size: 30px;
+    }
+    .subheading .mb-5{
+        font-size: 15px;
+    }
+    .lead .mb-5{
+        font-size: 13px;
+    }
+    .sidebr-nav{
+        width:13%;
+    }
+    .about-detail {
+        padding: 30px 36px;
+        margin-left: 21px;
+    }
+    .listabout{
+
+            font-size: 11px;
+        
+    }
+    .sidebar{
+        width: 15%;
+    }
+    .mb-g{
+        font-size: 15px;
+    }
+    .rounded-circle{
+        margin: 29px 15px !important;
+    }
+    .icon-display {
+        font-size: 16px;
+        background-color: #7e8685;
+        color: white;
+        margin-left: 10px;
+        padding: 18px;
+        border-radius: 50px;
+    }
+  }
