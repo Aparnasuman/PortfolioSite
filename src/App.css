@@ -130,16 +130,144 @@ button:focus {
     margin-left: 100px; 
     margin-top: 35px;
 }
+.icon-disp{
+    position: relative;
+    margin-left: 30px;
+    font-size: 40px;
+    color: #009688;
+}
+.icon-nm {
+    clear: both;
+    /* position: absolute; */
+    /* top: 10px; */
+    /* left: 50%; */
+    position: absolute;
+    left: 73px;
+    margin-top: 25px;
+    top: 50%px;
+    /* margin-left: -45px; */
+    display: none;
+    color: #343a40;
+    font-size: 17px;
+    font-weight: 700;
+}
+.icon-nm-1 {
+    clear: both;
+    /* position: absolute; */
+    /* top: 10px; */
+    /* left: 50%; */
+    position: absolute;
+    left: 135px;
+    margin-top: 25px;
+    top: 50%px;
+    /* margin-left: -45px; */
+    display: none;
+    color: #343a40;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.icon-nm-2 {
+    clear: both;
+    /* position: absolute; */
+    /* top: 10px; */
+    /* left: 50%; */
+    position: absolute;
+    left: 206px;
+    margin-top: 25px;
+    top: 50%px;
+    /* margin-left: -45px; */
+    display: none;
+    color: #343a40;
+    font-size: 17px;
+    font-weight: 700;
+}
+.icon-nm-3 {
+    clear: both;
+    /* position: absolute; */
+    /* top: 10px; */
+    /* left: 50%; */
+    position: absolute;
+    left: 291px;
+    margin-top: 25px;
+    top: 50%px;
+    /* margin-left: -45px; */
+    display: none;
+    color: teal;
+    font-size: #343a40;
+    font-weight: 700;
+}
+.icon-nm-4 {
+    clear: both;
+    /* position: absolute; */
+    /* top: 10px; */
+    /* left: 50%; */
+    position: absolute;
+    left: 330px;
+    margin-top: 25px;
+    top: 50%px;
+    /* margin-left: -45px; */
+    display: none;
+    color: #343a40;
+    font-size: 17px;
+    font-weight: 700;
+}
+.icon-nm-5 {
+    clear: both;
+    /* position: absolute; */
+    /* top: 10px; */
+    /* left: 50%; */
+    position: absolute;
+    left: 410px;
+    margin-top: 25px;
+    top: 50%px;
+    /* margin-left: -45px; */
+    display: none;
+    color:#343a40;
+    font-size: 17px;
+    font-weight: 700;
+}
+.icon-nm-6 {
+    clear: both;
+    /* position: absolute; */
+    /* top: 10px; */
+    /* left: 50%; */
+    position: absolute;
+    left: 470px;
+    margin-top: 25px;
+    top: 50%px;
+    /* margin-left: -45px; */
+    display: none;
+    color: #343a40;
+    font-size: 17px;
+    font-weight: 700;
+}
+.icon-disp:hover + .icon-nm {
+    display: inline-block;
+  }
+  .icon-disp:hover + .icon-nm-1 {
+    display: inline-block;
+  }
+  .icon-disp:hover + .icon-nm-2 {
+    display: inline-block;
+  }
+  .icon-disp:hover + .icon-nm-3 {
+    display: inline-block;
+  }
+  .icon-disp:hover + .icon-nm-4 {
+    display: inline-block;
+  }
+  .icon-disp:hover + .icon-nm-5 {
+    display: inline-block;
+  }
+  .icon-disp:hover + .icon-nm-6 {
+    display: inline-block;
+  }
 .icon-detail{
     margin-top: 20px;
 }
 
-.icon-disp{
-    margin-left: 10px;
-    padding: 18px;
-    font-size: 40px;
-    color: #009688;
-}
+
 .major{
     color: #009688;
     font-weight: 700;
