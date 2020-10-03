@@ -3,6 +3,8 @@ import { connect } from "react-redux";
 class IntrestDetail extends React.Component{
   render(){
 return (
+  <div className="row">
+          <div className="col-sm-12">
       <div className=" about-detail intrest">
      
 <section className="resume-section" id="interests">
@@ -14,7 +16,10 @@ return (
                 </div>
             </section>
       </div>
+      </div>
+      </div>
     );
+
 }
 };
 

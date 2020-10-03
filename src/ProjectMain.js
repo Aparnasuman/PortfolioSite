@@ -27,6 +27,8 @@ class ProjectDetail extends React.Component {
   }
   render() {
     return (
+      <div className="row">
+        <div className="col-sm-12">
       <div className=" about-detail ">
         <section className="resume-section" id="education">
           <div className="resume-section-content">
@@ -62,6 +64,8 @@ class ProjectDetail extends React.Component {
 </div>*/}
           </div>
         </section>
+      </div>
+      </div>
       </div>
     );
   }

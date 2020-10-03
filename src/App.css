@@ -3,7 +3,9 @@
     padding: 0px;
     box-sizing: border-box;
 }
-
+.path{
+    border-bottom: 1px solid teal;
+}
 .sidebar{
     width: 19%;
     height: 700px;
@@ -13,7 +15,6 @@
 }
 .col-sm-10{ 
     height: auto;
-    border-bottom:1px solid teal;
 }
 .togl{
     margin-top: 24px;
@@ -275,7 +276,7 @@ button:focus {
 }
 .about-detail{
     padding:30px 35px ;
-    border-bottom: 1px solid teal;
+
 }
 
 .cgpa{

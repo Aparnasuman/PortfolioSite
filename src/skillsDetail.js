@@ -2,7 +2,9 @@ import React from 'react';
 import './App.css';
 const SkillMain = props =>{
 return (
-      
+      <div className="row">
+          
+      <div className="col-sm-12">
        <div className="about-detail ">
  <section className="resume-section" id="skills">
                 <div className="resume-section-content">
@@ -45,7 +47,8 @@ return (
             </section>
         
        </div>
-      
+      </div>
+      </div>
     );
 };
 

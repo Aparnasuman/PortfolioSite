@@ -16,9 +16,9 @@ class AboutMain extends React.Component {
     // }, 1000)
   }
   render() {
-    let url = "";
     return (
-
+      <div className="row">
+      <div className="col-sm-12">
       <div className="about-detail">
         <section className="resume-section " id="about">
           <div className="resume-section-content">
@@ -48,7 +48,8 @@ class AboutMain extends React.Component {
           </div>
         </section>
       </div>
-
+</div>
+</div>
     );
   }
 };

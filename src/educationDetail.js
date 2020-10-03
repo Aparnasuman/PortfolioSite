@@ -3,7 +3,8 @@ import './App.css';
 class EducationMain extends React.Component{
    render(){
 return (
-      
+      <div className="row">
+          <div className="col-sm-12">
        <div className="about-detail  education ">
  <section className="resume-section" id="education">
                 <div className="resume-section-content">
@@ -38,7 +39,8 @@ return (
                 </div>
             </section>
        </div>
-      
+       </div>
+       </div>
     );
 }
 };

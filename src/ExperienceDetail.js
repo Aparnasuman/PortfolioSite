@@ -3,7 +3,8 @@ import './App.css';
 class ExperienceMain extends React.Component{
    render(){
 return (
-      
+    <div className="row">
+    <div className="col-sm-12">
        <div className="about-detail">
   <section className="resume-section" id="experience">
                 <div className="resume-section-content">
@@ -27,7 +28,8 @@ return (
                 </div>
             </section>
        </div>
-      
+      </div>
+      </div>
     );
 }
 };
