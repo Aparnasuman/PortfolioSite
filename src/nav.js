@@ -1,11 +1,10 @@
 import React from 'react';
 import logo from './logo.png';
 import { Link } from 'react-router-dom';
-import AboutDetail from './about';
 class NavBar extends React.Component {
   render() {
     return (
-    <nav className="sidebar">
+    <nav className="sidebar" >
      
      <Link to="/">  <img src={logo} alt="Download" className="img-fluid img-thumbnail rounded-circle m-3"></img></Link>
         <ul className="list">

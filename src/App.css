@@ -193,8 +193,8 @@ button:focus {
     top: 50%px;
     /* margin-left: -45px; */
     display: none;
-    color: teal;
-    font-size: #343a40;
+    color: #343a40;
+    font-size:17px;
     font-weight: 700;
 }
 .icon-nm-4 {
