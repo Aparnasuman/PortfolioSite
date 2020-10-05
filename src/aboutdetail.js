@@ -39,7 +39,7 @@ class AboutMain extends React.Component {
                 <a href="https://github.com/Aparnasuman">
                   <i className="fab fa-github"></i></a></span>
               <span className="icon-display env">
-                <a href="https://mail.google.com/mail/u/0/#inbox">
+                <a href=" mailto:aparnasuman2@gmail.com">
                   <i className="far fa-envelope"></i></a></span>
               <span className="icon-display fb">
                 <a href="https://www.facebook.com/aparna.suman.1/">

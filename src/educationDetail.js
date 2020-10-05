@@ -12,7 +12,7 @@ return (
                     <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div className="flex-grow-1">
                             <h3 className="mb-0">Guru Nanak Dev Engineering Collage</h3>
-                            <div className="subheading mb-3">BACHALOR OF COMPUTER SCIENCE</div>
+                            <div className="subheading mb-3">Bachelor of Technology in Computer science and engineering</div>
                             <div>Computer Science - Web Development </div>
                             <p>CGPA: 7.91</p>
                         </div>
@@ -29,7 +29,7 @@ return (
                     </div>
                     <div className="d-flex flex-column flex-md-row justify-content-between">
                         <div className="flex-grow-1">
-                            <h3 className="mb-0">JESUS AND MARRY ACADEMY</h3>
+                            <h3 className="mb-0">Jesus & Mary Academy Darbhanga</h3>
                             <div className="subheading mb-3">TENTH </div>
                             <div>  Major- Physics Chemistry Math</div>
                             <p>CGPA: 9.0</p>

@@ -8,7 +8,7 @@
 }
 .sidebar{
     width: 19%;
-    height: 700px;
+    height: 1000px;
     margin-left: -16px;
     background-color: teal;
     position: fixed;
@@ -285,7 +285,7 @@ button:focus {
 .sidebr-nav{
     width: 5%;
     margin-left: -15px;
-    height: 700px;
+    height: 1000px;
     position: fixed;
     z-index: 1111;
     background-color: teal;
@@ -408,6 +408,10 @@ li{
  color: #a7a79b;
  
 }
+.ms-c{
+    font-family: 'Times New Roman', Times, serif !important;
+    font-size: 18px !important;
+}
 
 /*mdia qury scrn"*/
 @media only screen  and (max-width: 660px){
@@ -434,6 +438,7 @@ li{
     }
     .sidebar{
         width: 15%;
+        z-index: 1111;
     }
     .mb-g{
         font-size: 15px;
@@ -442,10 +447,12 @@ li{
         margin: 29px 15px !important;
     }
     .icon-display {
-        font-size: 16px;
+        font-size: 20px;
+        display: inline-block;
         background-color: #7e8685;
         color: white;
-        margin-left: 10px;
+        margin-left: 14px;
+        margin-top: 7px;
         padding: 18px;
         border-radius: 50px;
     }
@@ -474,6 +481,7 @@ li{
     }
     .sidebar{
         width: 15%;
+        z-index: 1111;
     }
     .mb-g{
         font-size: 15px;
@@ -482,10 +490,12 @@ li{
         margin: 29px 15px !important;
     }
     .icon-display {
-        font-size: 16px;
+        font-size: 20px;
+        display: inline-block;
         background-color: #7e8685;
         color: white;
-        margin-left: 10px;
+        margin-left: 14px;
+        margin-top: 7px;
         padding: 18px;
         border-radius: 50px;
     }
@@ -514,6 +524,7 @@ li{
     }
     .sidebar{
         width: 15%;
+        z-index: 1111;
     }
     .mb-g{
         font-size: 15px;
@@ -522,10 +533,12 @@ li{
         margin: 29px 15px !important;
     }
     .icon-display {
-        font-size: 16px;
+        font-size: 20px;
+        display: inline-block;
         background-color: #7e8685;
         color: white;
-        margin-left: 10px;
+        margin-left: 14px;
+        margin-top: 7px;
         padding: 18px;
         border-radius: 50px;
     }

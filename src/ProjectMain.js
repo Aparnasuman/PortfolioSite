@@ -42,7 +42,7 @@ class ProjectDetail extends React.Component {
                         
                         {repo.name} <button className="button-primary new-button" onClick={() => this.checkstar(repo.name)}>☆</button>
                         <span> check stars: {this.getStars(repo.name)}</span>
-                        <p className="subheadings mb-3"> {repo.description}</p>
+                        <p className="subheadings mb-3 ms-c"> {repo.description}</p>
                       </li>
                     )}
 

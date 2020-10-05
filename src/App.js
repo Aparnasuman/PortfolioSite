@@ -29,12 +29,14 @@ class App extends React.Component {
                 <Router>
                     <div id="collapseExample" className="col-sm-2" >
                         <NavBar collapse={this.state.collapse} />
+                       
                     </div>
+                    
                     <div className={this.state.collapse?`col-sm-10 `:"col-sm-12"}  >
-                      <button class="btn btn-info togl" onClick={this.collapsed} type="button" >
+                     
+                    <button class="btn btn-info togl" onClick={this.collapsed} type="button" >
                       <i class="fas fa-bars"></i>
                      </button>
-
                         <Switch>
                             <Route path="/about" component={AboutMain} />
                             <Route path="/experience" component={ExperienceMain} />
