@@ -50,6 +50,7 @@ section.resume-section {
 }
 .icon-display:hover{
     background-color: #205550;
+    font-size: 25px;
 }
 .icon-display:focus{
     background-color: #205550;
@@ -79,6 +80,7 @@ section.resume-section {
     margin-left: 10px;
     padding: 18px;
     border-radius: 50px;
+    transition: 500ms linear;
 }
 .self-intro{
     text-align: justify;
@@ -408,8 +410,9 @@ li{
  color: #a7a79b;
  
 }
+
 .ms-c{
-    font-family: 'Times New Roman', Times, serif !important;
+    font-family: probapro-regular !important;
     font-size: 18px !important;
 }
 
